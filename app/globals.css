@@ -1,0 +1,13 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffff00; /* Warna latar belakang yang lebih terang */
+}
+
+/* Tambahkan gaya dasar lainnya sesuai kebutuhan */

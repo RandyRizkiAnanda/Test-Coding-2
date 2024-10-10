@@ -1,0 +1,44 @@
+/* styles/Home.module.css */
+.container {
+  min-height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffff00;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero {
+  background-color: #e0f7fa;
+  padding: 50px;
+}
+
+.about,
+.donate {
+  margin: 20px 0;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
